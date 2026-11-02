@@ -64,11 +64,9 @@ $$
 For a required occupancy $\theta_*$, inversion gives:
 
 $$
-\boxed{
 C_T
 =K_D\frac{\theta_*}{1-\theta_*}
 +R_T\theta_*
-}
 $$
 
 The first term supplies the free concentration that drives equilibrium; the second supplies molecules bound to receptors. If an external reservoir maintains $C_f$, the free concentration is the relevant control variable and depletion may be negligible. In a sealed small volume, the total concentration or total molecule inventory must include both terms.
@@ -246,10 +244,8 @@ $$
 If two signal levels are declared distinguishable when their expected separation is at least $k_{res}$ times the uncertainty of their difference, then:
 
 $$
-\boxed{
 \Delta C_{resolution}
 =\frac{k_{res}\sigma_{\Delta Y}}{|S|}
-}
 $$
 
 Here, $k_{res}$ is a selected separation rule—not a universal physical constant—and $\sigma_{\Delta Y}$ must match what is being compared.
@@ -269,10 +265,8 @@ $$
 Therefore:
 
 $$
-\boxed{
 \Delta C_{resolution}
 =\frac{k_{res}\sqrt{\sigma_1^2+\sigma_2^2}}{|S|}
-}
 $$
 
 For two replicate means based on $n_1$ and $n_2$ measurements, use their standard errors:
@@ -1105,9 +1099,7 @@ These are teaching choices, not universal analytical standards.
 The design target is not maximum signal or minimum electronic noise separately. It is minimum **concentration-equivalent uncertainty**:
 
 $$
-\boxed{
 \sigma_C(C)=\frac{\sigma_Y(C)}{|S(C)|}
-}
 $$
 
 For a conventional low-level rule:
@@ -1137,10 +1129,8 @@ $$
 and therefore:
 
 $$
-\boxed{
 \mathrm{LOD}\approx
 \frac{k\sigma_0K_D}{I_UG}
-}
 $$
 
 This is a design map, not a universal physical law. For a normalized response the baseline factor may cancel, and for a real sensor $G$, $K_D$, accessible receptor density, kinetics and noise may change together.
