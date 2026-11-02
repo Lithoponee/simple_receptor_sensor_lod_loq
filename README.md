@@ -63,11 +63,7 @@ $$
 
 For a required occupancy $\theta_*$, inversion gives:
 
-$$
-C_T
-=K_D\frac{\theta_*}{1-\theta_*}
-+R_T\theta_*
-$$
+$$C_T=K_D\frac{\theta_*}{1-\theta_*}+R_T\theta_*$$
 
 The first term supplies the free concentration that drives equilibrium; the second supplies molecules bound to receptors. If an external reservoir maintains $C_f$, the free concentration is the relevant control variable and depletion may be negligible. In a sealed small volume, the total concentration or total molecule inventory must include both terms.
 
